@@ -1,4 +1,4 @@
-baseURL = "https://www.aelias.dev"
+baseURL = "https://aelias.dev"
 relativeURLs = true
 title = "Aelias"
 paginate = 5
