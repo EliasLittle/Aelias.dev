@@ -1,7 +1,9 @@
-baseURL = "https://examplesite.com/"
-title = "Ex Post Ante"
+baseURL = ""
+relativeURLs = true
+title = "Aelias"
 paginate = 5
-theme = "PaperMod"
+theme = ['PaperMod']
+themesDir = "themes/"
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
@@ -9,8 +11,8 @@ buildExpired = false
 googleAnalytics = "UA-123-45"
 
 [minify]
-disableXML = true
-minifyOutput = true
+disableXML = false
+minifyOutput = false
 
 [params]
 env = "production"
@@ -43,7 +45,7 @@ tocopen = false
   safari_pinned_tab = "<link / abs url>"
 
   [params.label]
-  text = "Ex Post Ante"
+  text = "Aelias"
   # icon = "/apple-touch-icon.png"
   iconHeight = 35
 
