@@ -53,5 +53,5 @@ I was heavily involved with [Cornell Data Science](https://cornelldata.science) 
 
 
 
-If for whatever reason, you want to chat, you can reach out to me via Twitter (or whatever its called now).
+If for whatever reason, you want to chat, you can reach out to me via Twitter (or whatever it's called now).
 

@@ -1,19 +1,21 @@
 ---
-title: "Proposal for a System 2 Model"
-date: "2025-02-21"
-draft: true
+title: Proposal for a System 2 Model
+date: 2025-02-21
+draft: false
 showToc: true
 TocOpen: false
+tags:
+  - ml
 ---
 ## Introduction
 
-I recently read this<cite>[^1]</cite> tweet, which referenced the LLaDa paper ([Large Language Diffusion Models](https://arxiv.org/pdf/2502.09992)). And with Inception's recent [announcement of their Mercury models](https://www.inceptionlabs.ai/news), I've been thinking a lot about Diffusion architectures for large language models, and I'm really excited about them. I harbor very similar sentiments that diffusion feels far more analogous to how humans think compared to the transformer-based token autoregressive models (ARMs) that currently dominate the field.
+I recently read this[^1] tweet, which referenced the LLaDa paper ([Large Language Diffusion Models](https://arxiv.org/pdf/2502.09992)). And with Inception's recent [announcement of their Mercury models](https://www.inceptionlabs.ai/news), I've been thinking a lot about Diffusion architectures for large language models, and I'm really excited about them. I harbor very similar sentiments that diffusion feels far more analogous to how humans think compared to the transformer-based token autoregressive models (ARMs) that currently dominate the field.
 
 Instead of simply predicting what the next token should be, us humans ideate some concept as a whole and then put it into words (or some other medium). Using a diffusion model is much closer to this as it effectively generates all the tokens together in parallel instead of one at a time. 
 
 ### System 1 Thinking 
 
-Under System 1 thinking<cite>[^2]</cite> we effectively do the same thing as the diffusion models, directly spitting out an answer or response to something: words-in directly to words-out; fast. Most small talk, and simple conversations are exactly like this, you don’t need to think much or at all, and yet conversation moves freely. 
+Under System 1 thinking[^2] we effectively do the same thing as the diffusion models, directly spitting out an answer or response to something: words-in directly to words-out; fast. Most small talk, and simple conversations are exactly like this, you don’t need to think much or at all, and yet conversation moves freely. 
 
 But note that currently ARMs are quite good at system 1 style thinking, even though the primary idea behind it is very different from how we actually think. But the hypothesis that I believe (and it appears Inception does as well) is that a Diffusion architecture will actually be better (i.e. faster, cheaper) than ARMs. 
 
@@ -21,7 +23,7 @@ But I think Diffusion models can help lay the groundwork for not just cheaper mo
 
 ### System 2 Thinking
 
-Many attempts have been made at more complicated System 2 thinking<cite>[^2]</cite>, but most of these are simply longer (sometimes hidden) chains of System 1 thinking, and maybe combined with some tool use to bring in new information. This is definitely improved, both empirically and subjectively<cite>[^3]</cite>. However, it still doesn’t exactly map to how I think of my own System 2 thinking. 
+Many attempts have been made at more complicated System 2 thinking[^2], but most of these are simply longer (sometimes hidden) chains of System 1 thinking, and maybe combined with some tool use to bring in new information. This is definitely improved, both empirically and subjectively[^3]. However, it still doesn’t exactly map to how I think of my own System 2 thinking. 
 
 When I’m thinking hard or deeply about something, it’s often fuzzy and definitely not a nice orderly string of structured sentences. Often times I’m have a clear idea in my head, but then have to spend sometime to translate that into words (i.e. “give me a second to find the words for it”). Other times I’ll simply have some picture in my head, especially for spatial reasoning tasks, navigating, or sometimes organization. This type of thinking is absolutely not included in the long chain-of-text style that LLMs currently use. 
 
@@ -42,16 +44,14 @@ Lets tackle this in a few parts:
 2. We want to operate on more generalized concepts instead of small text embeddings
 3. We want to utilize ARMs ability to capture ordered relationships between embeddings
 
-
-
 Currently Diffusion based models all "diffuse" from some noisy distribution directly to the target medium (directly to pixels, or tokens). Instead I propose having a diffusion model generate latent space "concepts" which can then be “rendered” into any given medium (text, images, audio, etc...). This gives a slightly more complicated multi-modal model, but still not system-2 type thinking. To get system-2 style thinking we want to be able to iterate on these concepts. This means we want concepts to be able to interact with each other either like token embeddings in ARMs. 
 
 This combines diffusion's direct generation with the iteration of AR models. 
 
+So instead of generating tokens based on previous tokens, we'd instead generate abstract "concepts" based on previous concepts. Once we have our "sentences" constructed at the abstract level, we can then finish diffusing each of them down into their actual word-level tokens. We could even repeat this process at multiple different levels of abstraction to imitate paragraphs vs sentences vs words.
 
 
-
-
+The full exact architecture is TBD but at a high level it should have a standard transformer at the center, but instead of operating directly on text-tokens it works on much larger "concept" embeddings. We then also would likely need some sort of encoder/decoder model to transform our input text into the initial concepts that are fed to the transformer. The decoded values would then act as conditional values for the diffusion token generation. 
 
 ⊹
 

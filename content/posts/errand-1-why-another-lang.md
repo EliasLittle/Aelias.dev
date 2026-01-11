@@ -1,6 +1,6 @@
 ---
 title: Errand Part 1 - Why Another Language?
-draft: true
+draft: false
 tags:
   - Errand
   - programming-languages
@@ -56,15 +56,22 @@ High level scripting languages can be so easy to use because they do so much for
 - Making type choices for you
 	- Rust is known for have many different string types[^6], but scripting languages like Python typically only provide a single primary notion of a string and maybe a few alternatives for more advanced use.
 	- Similarly instead of differentiating between `i4`, `i8`, `i16`, `i32`, and `i64`, there's often just a single `Int`
-- ...
+- Built-in data structures
+	- Scripting languages often provide standard implementations of common data structures like dictionaries, sets, and regex
+	- These are typically more opinionated, but aren't as explicit and don't always allow as much customizability as "rolling your own"
 
 These are great when you want a scripting language as it gets out of your way. When one language might just yell at you saying that you can't add an integer and a float, telling you to cast one first, scripting languages stay out of your way and instead do their best to do what you mean. 
 
 This doesn't mean this hidden behavior is universally great though. Sometimes you don't actually intend for this behavior and it can subtly break your program, and even if it is correct it secretly adds extra work that might be unnecessarily slowing it down. 
 
-So how can we allow the user to choose when to allow this hidden behavior and when not to?
+So how can we allow the user to choose when to allow this easier hidden behavior and when not to?
 
+### Conclusion
+These points are intended to illustrate that our current arrangement of having three different levels of abstraction within programming languages works decently well, but if you want to bridge between the different levels of abstraction, it almost always means writing different portions in different languages and calling one from the other. 
 
+My belief is that we can write a language that has all the control and performance of C or Zig, with the safety of Rust, and the ease of Python.
+
+Let's run some Errands.
 
 
 [^1]: Whatever that means 🤷‍♂️

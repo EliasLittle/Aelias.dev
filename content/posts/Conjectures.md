@@ -1,3 +1,7 @@
+---
+title: Conjectures
+draft: true
+---
 
 Every problem that can be mapped to a graph domain doesn’t have to suffer from curse of dimensionality since all graphs can live in 3D 
 
