@@ -2,37 +2,88 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>http://localhost:1313/posts/errand-lang/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/errand-1-why-another-lang/</loc>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading-log/hyper-connections/</loc>
+    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading-log/mhc-paper/</loc>
+    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ml/</loc>
+    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/papers/</loc>
+    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading-log/</loc>
+    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2025-12-30T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/lossless-invariant-functions/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/multiple-dispatch-is-an-implicit-api/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/proposal-for-a-system-2-model/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2022-05-28T17:39:00-05:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>http://localhost:1313/tags/society/</loc>
     <lastmod>2022-05-28T17:39:00-05:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>http://localhost:1313/categories/technically/</loc>
     <lastmod>2022-05-28T17:39:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/society/</loc>
+    <loc>http://localhost:1313/tags/technicals--computing/</loc>
     <lastmod>2022-05-28T17:39:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>http://localhost:1313/posts/3d-construction/</loc>
     <lastmod>2022-05-28T17:39:00-05:00</lastmod>
   </url><url>
-    <loc>/categories/technically/</loc>
-    <lastmod>2022-05-28T17:39:00-05:00</lastmod>
-  </url><url>
-    <loc>/tags/technicals-computing/</loc>
-    <lastmod>2022-05-28T17:39:00-05:00</lastmod>
-  </url><url>
-    <loc>/posts/3d-construction/</loc>
-    <lastmod>2022-05-28T17:39:00-05:00</lastmod>
-  </url><url>
-    <loc>/categories/speaking-of-society/</loc>
+    <loc>http://localhost:1313/categories/speaking-of-society/</loc>
     <lastmod>2022-05-28T15:39:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/thinking/</loc>
+    <loc>http://localhost:1313/tags/thinking/</loc>
     <lastmod>2022-05-28T15:39:00-05:00</lastmod>
   </url><url>
-    <loc>/posts/walk-signs-insurance/</loc>
+    <loc>http://localhost:1313/posts/walk-signs-insurance/</loc>
     <lastmod>2022-05-28T15:39:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/my-first-post/</loc>
+    <lastmod>2022-01-29T13:50:34-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/thoughts-on-geometry/</loc>
+    <lastmod>2022-01-29T13:50:34-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/post-two/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/second/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/conjectures/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/errand/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/errand-2-design/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/programming-languages/</loc>
   </url>
 </urlset>

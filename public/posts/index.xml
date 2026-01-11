@@ -2,32 +2,149 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Aelias</title>
-    <link>/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Aelias</description>
     <image>
-      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>Aelias</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 28 May 2022 17:39:00 -0500</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.154.3</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Errang Lang</title>
+      <link>http://localhost:1313/posts/errand-lang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/errand-lang/</guid>
+      <description>&lt;p&gt;This is a multi part post about the programming language I’ve been working on in my free time called Errand (lang).&lt;/p&gt;
+&lt;p&gt;[[errand-1-why-another-lang|Part 1 - Why another language?]]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Explains why I thought there was a need for a new language and what it aims to do
+[[errand-2-design|Part 2: Design ]]&lt;/li&gt;
+&lt;li&gt;Explains how this language will try to solve these problems
+Part 3: Progress &amp;amp; Roadmap&lt;/li&gt;
+&lt;li&gt;Explains how&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Errand Part 1 - Why Another Language?</title>
+      <link>http://localhost:1313/posts/errand-1-why-another-lang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/errand-1-why-another-lang/</guid>
+      <description>&lt;h3 id=&#34;intro&#34;&gt;Intro&lt;/h3&gt;
+&lt;p&gt;Whenever I see new programming languages, the #1 question I see people ask, and one I ask myself, is why? What problems does this language solve that aren’t solved by an existing language? Why is this language the solution to those problems? Why can’t this be added to an existing language or as a library?&lt;/p&gt;
+&lt;p&gt;The most common answer to this is simply that they wanted to learn about what it takes to make a programming language. And honestly I also fall into this bucket. I had written a tiny parser in College, and had a general understanding of how interpreters and compilers worked but wanted to get my hands dirty trying to write a &lt;em&gt;real language&lt;/em&gt; &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lossless invariant functions</title>
+      <link>http://localhost:1313/posts/lossless-invariant-functions/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/lossless-invariant-functions/</guid>
+      <description>&lt;p&gt;For geometric deep learning we list our invariants that we want to hold for the given problem. For our data structure we then need to apply functions that impose that invariant on that given data structure.&lt;/p&gt;
+&lt;p&gt;For example, if our input is a set, and we want to impose permutation invariance, some common functions are &lt;code&gt;add&lt;/code&gt;, &lt;code&gt;avg&lt;/code&gt;, or &lt;code&gt;max&lt;/code&gt;. All of those functions impose permutation invariance on sets, and have different trade offs dependent on the downstream task.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Multiple Dispatch is an Implicit API</title>
+      <link>http://localhost:1313/posts/multiple-dispatch-is-an-implicit-api/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/multiple-dispatch-is-an-implicit-api/</guid>
+      <description>&lt;p&gt;When you call a function like &lt;code&gt;add(x,y)&lt;/code&gt; you’re not actually calling a specific method, you’re calling an API.&lt;/p&gt;
+&lt;p&gt;This can help with many things including&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dispatching for different types: int vs float vs matrix&lt;/li&gt;
+&lt;li&gt;Backend independent: run on nvidia vs amd&lt;/li&gt;
+&lt;li&gt;Versioning: update the implementation without updating downstream uses&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If we look at traditional APIs like REST for example,&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Proposal for a System 2 Model</title>
+      <link>http://localhost:1313/posts/proposal-for-a-system-2-model/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/proposal-for-a-system-2-model/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;I recently read this&lt;!-- raw HTML omitted --&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;!-- raw HTML omitted --&gt; tweet, which referenced the LLaDa paper (&lt;a href=&#34;https://arxiv.org/pdf/2502.09992&#34;&gt;Large Language Diffusion Models&lt;/a&gt;). And with Inception&amp;rsquo;s recent &lt;a href=&#34;https://www.inceptionlabs.ai/news&#34;&gt;announcement of their Mercury models&lt;/a&gt;, I&amp;rsquo;ve been thinking a lot about Diffusion architectures for large language models, and I&amp;rsquo;m really excited about them. I harbor very similar sentiments that diffusion feels far more analogous to how humans think compared to the transformer-based token autoregressive models (ARMs) that currently dominate the field.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Key to 3D Printed Construction</title>
-      <link>/posts/3d-construction/</link>
+      <link>http://localhost:1313/posts/3d-construction/</link>
       <pubDate>Sat, 28 May 2022 17:39:00 -0500</pubDate>
-      
-      <guid>/posts/3d-construction/</guid>
+      <guid>http://localhost:1313/posts/3d-construction/</guid>
       <description>One big problem is holding back 3D Printed Construction: Materials</description>
     </item>
-    
     <item>
       <title>Walk Signs are Insurance</title>
-      <link>/posts/walk-signs-insurance/</link>
+      <link>http://localhost:1313/posts/walk-signs-insurance/</link>
       <pubDate>Sat, 28 May 2022 15:39:00 -0500</pubDate>
-      
-      <guid>/posts/walk-signs-insurance/</guid>
-      <description>Government provides small insurance policies constantly. Once such example is walk signs. The key however is that you don’t pay with money, you pay with time! Every time you want to cross an intersection and you don’t see any cars coming, but the walk sign still has that orange hand telling you to stop, you have two options:
- Ignore the sign and cross anyways Wait until the sign says you can cross  By paying with your time and waiting for the sign to change, the government insures that you have certain rights if a car comes blazing through the red light which you don’t have otherwise.</description>
+      <guid>http://localhost:1313/posts/walk-signs-insurance/</guid>
+      <description>&lt;p&gt;Government provides small insurance policies constantly. Once such example is walk signs. The key however is that you don’t pay with money, you pay with &lt;em&gt;&lt;strong&gt;time&lt;/strong&gt;&lt;/em&gt;! Every time you want to cross an intersection and you don’t see any cars coming, but the walk sign still has that orange hand telling you to stop, you have two options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ignore the sign and cross anyways&lt;/li&gt;
+&lt;li&gt;Wait until the sign says you can cross&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By paying with your time and waiting for the sign to change, the government &lt;em&gt;insures&lt;/em&gt; that you have certain rights if a car comes blazing through the red light which you don’t have otherwise. (i.e. right to sue for compensation)&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Sat, 29 Jan 2022 13:50:34 -0500</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Hello World!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thoughts on Geometry</title>
+      <link>http://localhost:1313/posts/thoughts-on-geometry/</link>
+      <pubDate>Sat, 29 Jan 2022 13:50:34 -0500</pubDate>
+      <guid>http://localhost:1313/posts/thoughts-on-geometry/</guid>
+      <description>&lt;p&gt;Periodic shapes
+5 equally spaced points.
+Traverse 1 to the next to the next —&amp;gt; Pentagon
+Skipping one each time gives —&amp;gt; Star
+Skipping two each time gives —&amp;gt; Star traversed backwards
+Skipping 3 each time gives —&amp;gt; Pentagon traversed backwards
+Skipping 4 gives —&amp;gt; point (miss other points)
+Skipping 5 == skipping 0&lt;/p&gt;
+&lt;p&gt;Any divisors enter a degenerative state that don’t hit every vertex.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My 2nd post</title>
+      <link>http://localhost:1313/posts/post-two/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post-two/</guid>
+      <description>Quick Description of my 2nd post</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/conjectures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/conjectures/</guid>
+      <description>&lt;p&gt;Every problem that can be mapped to a graph domain doesn’t have to suffer from curse of dimensionality since all graphs can live in 3D&lt;/p&gt;
+&lt;p&gt;Generalized Understandings/Intelligence is made of two components:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Structured Representation&lt;/li&gt;
+&lt;li&gt;Learned information
+&lt;ul&gt;
+&lt;li&gt;many statistical have this, but lack a structured representation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The computational complexity of a function is proportional to the amount of information it  observes&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Errand Part 2 - Design</title>
+      <link>http://localhost:1313/posts/errand-2-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/errand-2-design/</guid>
+      <description>&lt;p&gt;This is part 2 in a series on my programming language &lt;a href=&#34;../posts/errand-lang/&#34;&gt;Errand&lt;/a&gt;. This part aims to answer how Errand aims to tackle the problems laid out in Part 1.&lt;/p&gt;
+&lt;h3 id=&#34;multiple-dispatch&#34;&gt;Multiple Dispatch&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-julia&#34; data-lang=&#34;julia&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;my_func(arg)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;my_func(&lt;span style=&#34;color:#66d9ef&#34;&gt;arg&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;:&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;my_func(arg&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;Int64&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;automatic-reference-counting--regions&#34;&gt;Automatic Reference Counting + Regions&lt;/h3&gt;</description>
+    </item>
   </channel>
 </rss>

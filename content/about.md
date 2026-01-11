@@ -1,26 +1,25 @@
 ---
 title: "About Me"
-date: 2020-09-15T11:30:03+00:00
+date: 2025-12-30T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["second"]
+tags: []
 author: "Me"
 # author: ["Me", "You"] # multiple authors
-showToc: true
+showToc: false
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: false
-description: "About Me"
+description: ""
 canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
+disableHLJS: false # to disable highlightjs
 disableShare: false
-disableHLJS: false
 hideSummary: false
 searchHidden: true
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
+ShowReadingTime: false
+ShowBreadCrumbs: false
+ShowPostNavLinks: false
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text
@@ -31,27 +30,28 @@ editPost:
     URL: "https://github.com/<path_to_repo>/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
-colorway: "blue"
+#colorway: "blue"
 ---
 
-## Hello :wave:
+## Howdy 👋🤠
 
-Hello, my name is Elias Little. 
-I am a student at Cornell University majoring in Operations Research 
-and Computer Scince with a minor in applied math.
+I'm Elias, I'm a software engineer currently living in SF.
+I spend a lot of my time thinking about machine learning and programming languages, keeping up with current state of the art research and techniques.
 
-{{< rawhtml >}}
-<p style="color: var(--blue)">Hello there!</p>
-{{< /rawhtml >}}
+I am also currently open to work, so if you think I might be a good fit for your team please reach out<cite>[^1]</cite>.
+[^1]:Email me at: \<firstname\>jlittle \<at\> gmail.com
 
-## Space Filler
+Most recently I was a Founding Engineer at [Nectar Climate](https://nectarclimate.com/). 
+I worked on everything from designing and implementing the first status tracking system, to building scrapers, and a slew of fullstack work including building many internal tools and iterating on our client dashboards.
 
-Now I've got to fill some space for this test.
-Here is where I would put a 'Lorem Ipsum' if I had it available.
+Before that, I was a Strategy and Product Specialist at [Jane Street](https://www.janestreet.com). A multidisciplinary role, most akin to a Technical Project Manager.
+I spent time on four different teams: Reconciliation Dev Team, Central Risk, Bookings Pipeline, and the Options Desk.
 
-## Lots of features
-* Feature one
-* Feature two
-* Yet Another Feature (YAF)
+Prior to Jane Street, I was a student at Cornell University. 
+I got my Bachelors there, where I studied Computer Science and focused largly on machine learning and math. 
+I was heavily involved with [Cornell Data Science](https://cornelldata.science) and was the President my Senior year.
 
-> Callout ?
+
+
+If for whatever reason, you want to chat, you can reach out to me via Twitter (or whatever its called now).
+

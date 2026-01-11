@@ -2,31 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Aelias</title>
-    <link>/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Aelias</description>
     <image>
-      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>Aelias</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 28 May 2022 17:39:00 -0500</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.154.3</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 May 2022 17:39:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Technically…</title>
-      <link>/categories/technically/</link>
+      <link>http://localhost:1313/categories/technically/</link>
       <pubDate>Sat, 28 May 2022 17:39:00 -0500</pubDate>
-      
-      <guid>/categories/technically/</guid>
+      <guid>http://localhost:1313/categories/technically/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Speaking of Society</title>
-      <link>/categories/speaking-of-society/</link>
+      <link>http://localhost:1313/categories/speaking-of-society/</link>
       <pubDate>Sat, 28 May 2022 15:39:00 -0500</pubDate>
-      
-      <guid>/categories/speaking-of-society/</guid>
+      <guid>http://localhost:1313/categories/speaking-of-society/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

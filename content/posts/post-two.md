@@ -13,9 +13,8 @@ hidemeta: false
 comments: false
 description: "Quick Description of my 2nd post"
 canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
+disableHLJS: false # to disable highlightjs
 disableShare: false
-disableHLJS: false
 hideSummary: false
 searchHidden: true
 ShowReadingTime: true

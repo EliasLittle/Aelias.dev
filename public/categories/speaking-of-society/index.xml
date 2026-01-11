@@ -2,23 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Speaking of Society on Aelias</title>
-    <link>/categories/speaking-of-society/</link>
+    <link>http://localhost:1313/categories/speaking-of-society/</link>
     <description>Recent content in Speaking of Society on Aelias</description>
     <image>
-      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>Aelias</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 28 May 2022 15:39:00 -0500</lastBuildDate><atom:link href="/categories/speaking-of-society/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.154.3</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 May 2022 15:39:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/speaking-of-society/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Walk Signs are Insurance</title>
-      <link>/posts/walk-signs-insurance/</link>
+      <link>http://localhost:1313/posts/walk-signs-insurance/</link>
       <pubDate>Sat, 28 May 2022 15:39:00 -0500</pubDate>
-      
-      <guid>/posts/walk-signs-insurance/</guid>
-      <description>Government provides small insurance policies constantly. Once such example is walk signs. The key however is that you don’t pay with money, you pay with time! Every time you want to cross an intersection and you don’t see any cars coming, but the walk sign still has that orange hand telling you to stop, you have two options:
- Ignore the sign and cross anyways Wait until the sign says you can cross  By paying with your time and waiting for the sign to change, the government insures that you have certain rights if a car comes blazing through the red light which you don’t have otherwise.</description>
+      <guid>http://localhost:1313/posts/walk-signs-insurance/</guid>
+      <description>&lt;p&gt;Government provides small insurance policies constantly. Once such example is walk signs. The key however is that you don’t pay with money, you pay with &lt;em&gt;&lt;strong&gt;time&lt;/strong&gt;&lt;/em&gt;! Every time you want to cross an intersection and you don’t see any cars coming, but the walk sign still has that orange hand telling you to stop, you have two options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ignore the sign and cross anyways&lt;/li&gt;
+&lt;li&gt;Wait until the sign says you can cross&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By paying with your time and waiting for the sign to change, the government &lt;em&gt;insures&lt;/em&gt; that you have certain rights if a car comes blazing through the red light which you don’t have otherwise. (i.e. right to sue for compensation)&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

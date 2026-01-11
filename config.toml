@@ -1,41 +1,66 @@
 baseURL = "https://aelias.dev"
 relativeURLs = true
 title = "Aelias"
-paginate = 5
-theme = ['PaperMod']
-themesDir = "themes/"
+theme = "PaperMod"
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
 googleAnalytics = "UA-123-45"
 
+[pagination]
+  pagerSize =  5
+
+[module]
+  [[module.mounts]]
+    source = "/Users/eliaslittle/Blog/Blog/posts"
+    target = "content/posts"
+  
+  [[module.mounts]]
+    source = "/Users/eliaslittle/Blog/Blog/reading-log"
+    target = "content/reading-log"
+  
+  [[module.mounts]]
+    source = "/Users/eliaslittle/Blog/Blog/about.md"
+    target = "content/about.md"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      wikilink = true
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
+
 [minify]
 disableXML = false
 minifyOutput = false
 
 [params]
-env = "production"
-title = "ExampleSite"
-description = "ExampleSite description"
-keywords = [ "Blog", "Portfolio", "PaperMod" ]
-author = "Me"
-images = [ "<link or path of image for opengraph, twitter-cards>" ]
-DateFormat = "January 2, 2006"
-defaultTheme = "auto"
-disableThemeToggle = false
-ShowReadingTime = true
-ShowShareButtons = true
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
-ShowCodeCopyButtons = false
-disableSpecial1stPost = false
-disableScrollToTop = false
-comments = false
-hidemeta = false
-hideSummary = false
-showtoc = false
-tocopen = false
+  env = "production"
+  title = "ExampleSite"
+  description = "ExampleSite description"
+  keywords = [ "Blog", "Portfolio", "PaperMod" ]
+  author = "Me"
+  images = [ "<link or path of image for opengraph, twitter-cards>" ]
+  DateFormat = "January 2, 2006"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+  math = true
 
   [params.assets]
   favicon = "<link / abs url>"
@@ -67,10 +92,11 @@ tocopen = false
     url = "tags"
 
   [params.homeInfoParams]
-  Title = "Hi there 👋"
-  Content = """Welcome to my blog. 
+  Title = "Howdy friend 👋"
+  Content = """Welcome!
 
-  My name is Elias, and this is where I talk about my thoughts."""
+  I'm Elias, however you might have found this, it's mostly a collection of my thoughts and short form writing. 
+  Most of it is focused on Math, Machine Learning, and Computer Science. Feel free to reach out, I'd love to chat."""
 
   [[params.socialIcons]]
   name = "twitter"
@@ -109,10 +135,22 @@ SiteVerificationTag = "XYZabc"
   keys = [ "title", "permalink", "summary", "content" ]
 
 [[menu.main]]
-identifier = "categories"
-name = "Categories"
-url = "/categories/"
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 5
+
+[[menu.main]]
+identifier = "reading log"
+name = "Reading Log"
+url = "/reading-log/"
 weight = 10
+
+#[[menu.main]]
+#identifier = "categories"
+#name = "Categories"
+#url = "/categories/"
+#weight = 10
 
 [[menu.main]]
 identifier = "tags"
@@ -120,8 +158,15 @@ name = "Tags"
 url = "/tags/"
 weight = 20
 
-[[menu.main]]
-identifier = "EliasL.com"
-name = "EliasL.com"
-url = "https://eliasl.com"
-weight = 30
+#[[menu.main]]
+#identifier = "conjectures"
+#name = "Conjectures"
+#url = "/conjectures/"
+#weight = 30
+
+# [[menu.main]]
+# identifier = "EliasL.com"
+# name = "EliasL.com"
+# url = "https://eliasl.com"
+# weight = 30
+
