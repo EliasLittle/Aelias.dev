@@ -1,7 +1,10 @@
 ---
 title: "mHC: Manifold-Constrained Hyper-Connections"
 date: 2026-01-09
-tags: ["ml", "papers"]
+tags:
+  - ml
+  - papers
+draft: true
 ---
 
 [Original Paper](https://www.arxiv.org/abs/2512.24880)
