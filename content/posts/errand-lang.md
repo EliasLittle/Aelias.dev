@@ -1,5 +1,5 @@
 ---
-title: Errang Lang
+title: Errand Lang
 author: Elias Little
 draft: false
 weight: -101
