@@ -1,10 +1,10 @@
 ---
-title: "The Key to 3D Printed Construction" 
+title: The Key to 3D Printed Construction
 date: 2022-05-28T17:39:00-05:00
-# weight: 1
-tags: ["Society", "Technicals & Computing"]
-categories: ["Technically…"]
-author: "Elias Little" 
+tags:
+categories:
+  - Technically…
+author: Elias Little
 draft: false
 showToc: true
 TocOpen: false
